@@ -28,6 +28,7 @@ sudo pacman -S --noconfirm --needed \
   ffmpegthumbnailer \
   fzf \
   gcc14 \
+  ghostty \
   github-cli \
   gnome-calculator \
   gnome-keyring \
@@ -61,7 +62,10 @@ sudo pacman -S --noconfirm --needed \
   mariadb-libs \
   mise \
   mpv \
+  mtr \
   nautilus \
+  nextcloud-client \
+  nfs-utils \
   noto-fonts \
   noto-fonts-cjk \
   noto-fonts-emoji \
@@ -71,6 +75,7 @@ sudo pacman -S --noconfirm --needed \
   obs-studio \
   obsidian \
   omarchy-chromium \
+  openvpn \
   pamixer \
   pinta \
   playerctl \
@@ -83,6 +88,7 @@ sudo pacman -S --noconfirm --needed \
   python-poetry-core \
   python-terminaltexteffects \
   ripgrep \
+  rsync \
   satty \
   signal-desktop \
   slurp \
@@ -93,6 +99,7 @@ sudo pacman -S --noconfirm --needed \
   swayosd \
   system-config-printer \
   tldr \
+  transmission-gtk \
   tree-sitter-cli \
   ttf-cascadia-mono-nerd \
   ttf-jetbrains-mono \
@@ -107,11 +114,13 @@ sudo pacman -S --noconfirm --needed \
   wf-recorder \
   whois \
   wiremix \
-  wireplumber \
+  wireshark-cli \
+  rewireplumber \
   wl-clip-persist \
   wl-clipboard \
   wl-screenrec \
   woff2-font-awesome \
+  xclip \
   xdg-desktop-portal-gtk \
   xdg-desktop-portal-hyprland \
   xmlstarlet \
