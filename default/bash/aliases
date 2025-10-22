@@ -5,6 +5,10 @@ alias lt='eza --tree --level=2 --long --icons --git'
 alias lta='lt -a'
 alias ff="fzf --preview 'bat --style=numbers --color=always {}'"
 alias cd="zd"
+alias l="ls -la"
+alias whatsmyip="curl ifconfig.me"
+alias vim="nvim"
+alias v="nvim"
 zd() {
   if [ $# -eq 0 ]; then
     builtin cd ~ && return
