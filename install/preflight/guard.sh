@@ -1,10 +1,10 @@
 #!/bin/bash
 
-abort() {
-  echo -e "\e[31mOmarchy install requires: $1\e[0m"
-  echo
-  gum confirm "Proceed anyway on your own accord and without assistance?" || exit 1
-}
+#   abort() {
+#     echo -e "\e[31mOmarchy install requires: $1\e[0m"
+#     echo
+#     gum confirm "Proceed anyway on your own accord and without assistance?" || exit 1
+#   }
 
 # Must be an Arch distro
 if [[ ! -f /etc/arch-release ]]; then
@@ -42,7 +42,7 @@ fi
 command -v limine &>/dev/null || abort "Limine bootloader"
 
 # Must have btrfs root filesystem
-[ "$(findmnt -n -o FSTYPE /)" = "btrfs" ] || abort "Btrfs root filesystem" 
+[ "$(findmnt -n -o FSTYPE /)" = "btrfs" ] || abort "Btrfs root filesystem"
 
 # Cleared all guards
 echo "Guards: OK"
