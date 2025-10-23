@@ -1,10 +1,10 @@
 #!/bin/bash
 
-#   abort() {
-#     echo -e "\e[31mOmarchy install requires: $1\e[0m"
-#     echo
-#     gum confirm "Proceed anyway on your own accord and without assistance?" || exit 1
-#   }
+abort() {
+echo -e "\e[31mOmarchy install requires: $1\e[0m"
+echo
+gum confirm "Proceed anyway on your own accord and without assistance?" || exit 1
+}
 
 # Must be an Arch distro
 if [[ ! -f /etc/arch-release ]]; then
